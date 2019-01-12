@@ -151,7 +151,7 @@ Not every entity will have a primary key property named `id`. For some entities,
 
 In these cases, you specify a `selectId` function that, given an entity instance, returns an integer or string primary key value.
 
-In the [entity reducer tests](../lib/src/reducers/entity-reducer.spec.ts), the `Villain` type has a string primary key property named `key`.
+In the [entity collection reducer tests](../lib/src/reducers/entity-collection-reducer.spec.ts), the `Villain` type has a string primary key property named `key`.
 The `selectorId` function is this:
 
 ```javascript
