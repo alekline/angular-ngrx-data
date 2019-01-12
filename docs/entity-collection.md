@@ -14,5 +14,5 @@ An _entity_collection_ implements the [`EntityCollection<T>` interface](../lib/s
 | `loading`     | Whether currently waiting for query results to arrive from the server                               |
 | `changeState` | When [change-tracking](entity-change-tracker.md) is enabled, the `ChangeStates` of unsaved entities |
 
-You can extend an entity types with _additional properties_ via
-[entity metadata](entity-metadata.md#additional-collection-state).
+You can extend an entity type with _additional properties_ via
+`additionalCollectionState` in [entity metadata](entity-metadata.md#additional-collection-state).
